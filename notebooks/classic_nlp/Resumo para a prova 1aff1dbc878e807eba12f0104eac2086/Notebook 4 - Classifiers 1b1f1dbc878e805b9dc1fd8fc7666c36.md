@@ -159,25 +159,17 @@ Neste notebook, foram abordados importantes conceitos de classificação de text
     - Considera a relevância do termo na coleção inteira (IDF)
     - Permite identificar termos mais distintivos em documentos
 
-| **Modelo** | **Melhor Cenário de Uso** | **Exemplo de Aplicação** |
-| --- | --- | --- |
-| Bag-of-Words | - Textos longos
-- Quando frequência é importante
-- Análise de conteúdo detalhada | - Análise de artigos científicos
-- Categorização de documentos longos
-- Análise de reviews detalhados |
-| Distribuição de Bernoulli | - Textos curtos
-- Classificação simples
-- Recursos computacionais limitados | - Classificação de tweets
-- Análise de mensagens curtas
-- Filtro de spam |
-| Regressão Logística | - Necessidade de probabilidades
-- Classificação binária
-- Dados bem estruturados | - Previsão de sentimentos
-- Detecção de fraude
-- Classificação de clientes |
-| TFIDF | - Identificação de termos relevantes
-- Análise de coleções de documentos
-- Busca por termos distintivos | - Sistemas de busca
-- Recomendação de conteúdo
-- Análise de relevância de documentos |
+| Modelo                  | Melhor Cenário de Uso                            | Exemplo de Aplicação            |
+|-------------------------|--------------------------------------------------|---------------------------------|
+| **Bag-of-Words**        | - Textos longos                                 | - Análise de artigos científicos|
+|                         | - Frequência é importante                        | - Categorização de documentos longos|
+|                         | - Análise detalhada do conteúdo                  | - Análise de reviews detalhados |
+| **Distribuição de Bernoulli** | - Textos curtos                            | - Classificação de tweets       |
+|                         | - Classificação simples                          | - Análise de mensagens curtas   |
+|                         | - Recursos computacionais limitados              | - Filtro de spam                |
+| **Regressão Logística** | - Necessidade de probabilidades                  | - Previsão de sentimentos       |
+|                         | - Classificação binária                          | - Detecção de fraude            |
+|                         | - Dados bem estruturados                         | - Classificação de clientes     |
+| **TF-IDF**              | - Identificação de termos relevantes             | - Sistemas de busca             |
+|                         | - Análise de coleções de documentos              | - Recomendação de conteúdo      |
+|                         | - Busca por termos distintivos                   | - Análise de relevância de documentos|
