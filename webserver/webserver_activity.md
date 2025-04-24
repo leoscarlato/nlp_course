@@ -7,7 +7,11 @@ Check `app.py`. It is the code for a minimalist webserver in Flask.
 Find the answers to the questions below, according to your analysis:
 
 1. What class implements a dummy predictor?
+Answer: Model
+
 2. How is an instance of a predictor connected to the app?
+Aanswer: 
+
 3. What is the name of this design pattern?
 
 ## 2 - Construction
